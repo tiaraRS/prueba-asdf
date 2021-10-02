@@ -1,7 +1,16 @@
-function calcularCadenas(cadena) {
-    let num1 = parseInt(cadena[0]);
-    let num2 = parseInt(cadena[2]);
-    return num1 + num2;
+function calcularCadenas(cadena){
+    let suma = 0;
+    let i=0;
+    while(i<cadena.length){
+        if(!(cadena[i] == "," && i%2!=0))
+        {         
+            let num = parseInt(cadena[i]);
+            if(Number.isNaN(num)) return suma;
+            suma += num;            
+        }        
+        i++;
+    }
+    return suma;
 }
-  
+
 export default calcularCadenas;

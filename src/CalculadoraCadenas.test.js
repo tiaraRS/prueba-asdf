@@ -1,7 +1,31 @@
 import calcularCadenas from "./CalculadoraCadenas.js";
 
-describe("calcularCadenas", () => {
-  it("suma de 2 numeros separados por 1 caracter intermedio : deberia devolver 1 para la cadena '1,0' ", () => {
-    expect(calcularCadenas("1,0")).toEqual(1);
+describe("Sumar", () => {
+  it("deberia sumar 2 numeros separados por ,", () => {
+    expect(calcularCadenas("1,2")).toEqual(3);
+  });
+  it("deberia sumar 2 numeros separados por ,", () => {
+    expect(calcularCadenas("1,5")).toEqual(6);
+  });
+  it("deberia sumar 2 numeros separados por ,", () => {
+    expect(calcularCadenas("1*5")).toEqual(1);
+  });
+  it("deberia sumar 2 numeros separados por ,", () => {
+    expect(calcularCadenas("1,,5")).toEqual(1);
+  });
+  it("deberia sumar 2 numeros separados por ,", () => {
+    expect(calcularCadenas("**5")).toEqual(0);
+  });
+  it("deberia sumar todos los numeros separados por ,", () => {
+    expect(calcularCadenas("1,2,4,8")).toEqual(15);
+  });
+  it("deberia sumar todos los numeros separados por ,", () => {
+    expect(calcularCadenas("1,2,4,,8")).toEqual(7);
+  });
+  it("deberia sumar todos los numeros separados por ,", () => {
+    expect(calcularCadenas("*1,2,4,,8")).toEqual(0);
+  });
+  it("deberia sumar todos los numeros separados por ,", () => {
+    expect(calcularCadenas("1/2,4,,8")).toEqual(1);
   });
 });
