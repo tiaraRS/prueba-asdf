@@ -28,4 +28,10 @@ describe("Sumar", () => {
   it("deberia sumar todos los numeros separados por ,", () => {
     expect(calcularCadenas("1/2,4,,8")).toEqual(1);
   });
+  it("deberia sumar todos los numeros separados por -", () => {
+    expect(calcularCadenas("1-2-4-8")).toEqual(15);
+  });
+  it("deberia sumar todos los numeros separados por -", () => {
+    expect(calcularCadenas("1-,2-4-8")).toEqual(1);
+  });
 });
