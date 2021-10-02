@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633141004955" clover="3.2.0">
-  <project timestamp="1633141004955" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+<coverage generated="1633142422360" clover="3.2.0">
+  <project timestamp="1633142422360" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1" elements="25" coveredelements="25" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="CalculadoraCadenas.js" path="D:\UNIVERSIDAD\SEMESTRE 6\ING DE SW\PROYECTOS\TDD calculadora strings\parcel-jest-base\src\CalculadoraCadenas.js">
-      <metrics statements="9" coveredstatements="9" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <line num="2" count="13" type="stmt"/>
-      <line num="3" count="13" type="stmt"/>
-      <line num="4" count="13" type="stmt"/>
-      <line num="5" count="47" type="cond" truecount="5" falsecount="0"/>
-      <line num="7" count="31" type="stmt"/>
-      <line num="8" count="31" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="23" type="stmt"/>
-      <line num="11" count="39" type="stmt"/>
-      <line num="13" count="5" type="stmt"/>
+      <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <line num="2" count="16" type="stmt"/>
+      <line num="3" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="8" count="16" type="stmt"/>
+      <line num="9" count="16" type="stmt"/>
+      <line num="10" count="16" type="stmt"/>
+      <line num="11" count="62" type="cond" truecount="6" falsecount="0"/>
+      <line num="13" count="40" type="stmt"/>
+      <line num="14" count="40" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="30" type="stmt"/>
+      <line num="17" count="52" type="stmt"/>
+      <line num="19" count="6" type="stmt"/>
     </file>
   </project>
 </coverage>
